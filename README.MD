@@ -1,5 +1,7 @@
 # Temporal AI Model Question Planetarium
 
+[![Watch the video](https://img.youtube.com/vi/iizTUZiKPDA/default.jpg)](https://youtu.be/iizTUZiKPDA)
+
 This is an example implementation of running multiple AI models using Temporal activities and workers. Our page uses WebSockets to communicate updates back and forth between our flask server and client browser. By leveraging Temporal we get automatic job queuing and execution in addition to retries, timeout management, question status tracking and more.
 
 The application supports two AI models:
@@ -70,3 +72,4 @@ This will start up a flask app with a UI for asking AI models questions on [port
 ![Temporal UI](images/Temporal.png)
 
 You're able to ask as many questions as you'd like and can navigate to the temporal UI running on [port 8233](localhost://8233) to view the status of the queue. You can navigate to a specific task queue by clicking on the question from our flask UI. From the temporal UI, you can restart, terminate or just view the status of any specific workflow.
+
